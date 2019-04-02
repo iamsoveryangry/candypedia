@@ -1,0 +1,75 @@
+body {
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 300;
+    color: #E56A6A;
+    font-size: 2vw;
+    background-color: #fff;
+    text-align: center;
+    margin: 0px;
+}
+
+.logoBar{
+    display:flex;
+    justify-content: left;
+    margin: 10px;
+}
+
+.logo{
+    width:100px;
+    height:44px;
+}
+
+
+h1 {
+    font-size: 10vw;
+    letter-spacing: -3px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 4em;
+    color: #ffffff;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: space-evenly;
+    padding: 0px 50px 100px;
+
+}
+
+.container div{
+    /*the child*/
+    padding: 10px;
+    margin: inherit;
+    flex: 0 1 10em;
+    /*item property flex: flex-grow flex-shrink flex-basis;*/
+}
+
+
+/*Mobile and Tablet*/
+@media only screen and (max-width: 768px){
+    .logoBar{
+        display:flex;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .logo{
+        width:100px;
+        height:44px;
+    }
+}
+

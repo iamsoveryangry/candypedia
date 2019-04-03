@@ -58,6 +58,10 @@ h2 {
     /*item property flex: flex-grow flex-shrink flex-basis;*/
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
 
 /*Mobile and Tablet*/
 @media only screen and (max-width: 768px){
